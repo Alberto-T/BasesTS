@@ -110,7 +110,7 @@
     // "objetos/*.ts"
     "node_module2"
   ],
-  // "include": [
-  //   "node_modules"
-  // ]
+  "include": [
+    "ES6"
+  ]
 }
