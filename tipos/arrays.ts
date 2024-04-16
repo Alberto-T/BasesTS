@@ -11,4 +11,6 @@
 
     villians.forEach( v => console.log(v.toUpperCase()) );
 
+    villians.forEach( v => console.log(v) );
+
 })()
