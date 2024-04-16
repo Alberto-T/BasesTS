@@ -1,6 +1,5 @@
 "use strict";
 (() => {
-    //! Palabra type es para definir un tipo en los objetos
     let flash = {
         name: 'Barry Allen',
         age: 24,
@@ -15,3 +14,4 @@
         }
     };
 })();
+//# sourceMappingURL=type.js.map

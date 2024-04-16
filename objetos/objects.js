@@ -10,13 +10,5 @@
         age: 60,
         powers: ['Súper Fuerza']
     };
-    // flash = {
-    //     name: 'Clark Kent',
-    // age: 60,
-    //     powers: ['Súper fuerza'],
-    //     getName(){
-    //         return this.name;
-    //     }
-    // }
-    // console.log(flash);
 })();
+//# sourceMappingURL=objects.js.map
