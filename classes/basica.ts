@@ -6,6 +6,9 @@
         // private team: string;
         // public realName?: string;
         static avgAge: number = 35;
+        static getAvgAge() {
+            return this.name;
+        }
 
         constructor( private name: string,
             private team: string,
@@ -18,6 +21,11 @@
             Avenger.avgAge = avgAge;
         }
 
+        public bio() {
+            return `${ this.name } (${ this.team })`;
+        }
+
+
     }
 
 // las propiedades staticas se pueden llamar de manera global llamando a la clase, pero no a la instancia y utilizando la propiedad
@@ -26,6 +34,8 @@
     // console.log( Avenger.avgAge );
     console.log(Avenger.avgAge);
 
+    console.log( antman.bio() );
 
+    console.log(Avenger.getAvgAge());
 
 })()
