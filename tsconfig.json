@@ -111,6 +111,6 @@
     "node_module2"
   ],
   "include": [
-    "ES6"
+    "classes"
   ]
 }
