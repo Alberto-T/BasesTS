@@ -32,7 +32,16 @@
         console.log( ironman, resto );
     }
 
-    printAvenger( avengers )
+    // printAvenger( avengers )
 
+    // const avengersArr = ['Cap. América', 'Ironman', 'Hulk'];
+
+    // const ironman = avengersArr[1];
+    // console.log({ ironman });
+
+    const avengersArr: [string, boolean, number] = ['Cap. América', true, 1500];
+
+    const [ capitan, ironman, numero ] = avengersArr;
+    // console.log({ ironman, capitan });
 
 })()
