@@ -22,6 +22,9 @@
             id: 2,
             zip: '882882s',
             city: 'Santiago'
+        },
+        getFullAddress(id) {
+            return this.address.city;
         }
     };
     const client2 = {
@@ -31,6 +34,9 @@
             city: 'Madrid',
             id: 2334,
             zip: 'SF2354SA'
+        },
+        getFullAddress(id) {
+            return this.address.city;
         }
     };
 })();
