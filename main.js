@@ -49,7 +49,7 @@
 })();
 (() => {
     let addNumbersFunction;
-    addNumbersFunction = () => {
+    addNumbersFunction = (a, b) => {
         return 10;
     };
 })();
