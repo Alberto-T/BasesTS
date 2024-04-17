@@ -111,6 +111,6 @@
     "node_module2"
   ],
   "include": [
-    "interfaces"
+    "namespaces"
   ]
 }
